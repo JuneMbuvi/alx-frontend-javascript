@@ -7,6 +7,6 @@ export default function createInt8TypedArray(length, position, value) {
   int8Array[position] = value;
   return {
     buffer: arrayBuffer,
-    int8Array: Int8Array
+    int8Array: Int8Array,
   };
 }
